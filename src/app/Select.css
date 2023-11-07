@@ -1,0 +1,43 @@
+.select {
+  position: relative;
+  border: 2px solid #f968bf;
+  border-radius: 10px;
+  width: 200px;
+  margin: 50px;
+}
+
+.select__control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.select__selected-value {
+  color: #29277d;
+}
+
+.select__arrow {
+  width: 16px;
+  height: 16px;
+  fill: #5f88f4;
+  transition: transform 0.3s ease;
+}
+
+.select__arrow--open {
+  transform: rotate(180deg);
+}
+
+.select__options {
+  border-top: none;
+}
+
+.select__option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.select__option:hover {
+  background-color: #dadefe;
+}

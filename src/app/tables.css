@@ -1,0 +1,46 @@
+/* Table CSS */
+.table {
+  border-collapse: collapse;
+  margin-left: 5%;
+  width: 90%;
+}
+
+/* Table Header CSS */
+.table thead th {
+  background-color: #f968bf;
+  color: #29277d;
+  height: 40px;
+  border: 1px solid #f968bf;
+  padding: 8px;
+}
+
+/* Table Body CSS */
+.table tbody tr:nth-child(even) {
+  background-color: #dadefe;
+}
+
+.table tbody tr:hover {
+  background-color: #dadefe;
+}
+
+.table tbody td {
+  border: 1px solid #f968bf;
+  padding: 8px;
+}
+
+/* Sort Arrow CSS */
+.sort-asc {
+  transform: rotate(180deg);
+  width: 12px;
+  height: 12px;
+}
+
+.sort-desc {
+  width: 12px;
+  height: 12px;
+}
+
+/* Hover Effect CSS */
+.table tbody tr:hover td {
+  background-color: #dadefe;
+}
